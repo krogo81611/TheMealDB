@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <section class="column">
+            <h1>Recipe Finder</h1>
+
+            <h3>Select Category to View Recipes</h3>
+
+            <label for="Select">Categories</label>
+            <select name="Recipe Category" id="category">
+                <option value="Select">Select Category</option>
+            </select> <br>
+
+            <label for="Select">Recipes</label>
+            <select name="Meal Choice" id="mealSelect">
+                <option value="Select">Select Meal</option>
+            </select>            
+            
+
+        </section>
+        <section class="column">
+            <h3 id="recipeName"></h3>
+                <section class="container">
+                    <section class="column">
+                        <img src="" alt="" id="recipeImg">
+                    </section>
+                    <section class="column">
+                        <ul id="recipe-ingredients"></ul>
+                    </section>
+                </section>
+            <p id="recipe-instructions"></p>
+        </section>
+    </section>  
+
+    <script src="main.js"></script>
+</body>
+</html>
