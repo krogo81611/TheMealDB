@@ -45,14 +45,17 @@ h3 {
     font-size: 2.4rem;
 }
 
-label{
+label, span{
     font-size: 1.8rem;
+    background-color: white;
 }
 
 select {
     margin: 50px 0 0 0;
 }
-
+#mealSelect {
+    margin-bottom: 50px;
+}
 p, li {
     font-size: 1.6rem;
     background-color: white;

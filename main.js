@@ -46,6 +46,11 @@ mealSelect.addEventListener('change', event => {
     getMealInfo(MEAL_NAMES)
 })
 
+document.getElementById('random').addEventListener('click', event => {
+    const RANDOM_MEAL = `https://www.themealdb.com/api/json/v1/1/random.php`
+    getMealInfo(RANDOM_MEAL)
+})
+
 const getMealInfo = url => {
     fetch(url) 
     .then(res => res.json())
