@@ -18,7 +18,7 @@ fetch(CATEGORY_URL)
             catSelect.appendChild(option);
         }
 })
-
+ 
 catSelect.addEventListener('change', event => {
     const CATEGORY_FILTER = `https://www.themealdb.com/api/json/v1/1/filter.php?c=${catSelect.value}`
     getMealsByCategory(CATEGORY_FILTER);
