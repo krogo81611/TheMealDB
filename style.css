@@ -1,0 +1,72 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+
+body{
+    background:  50% url('cutting\ board.jpg');
+}
+  
+  .clear {
+      clear: both;
+  }
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+}
+.column {
+    flex: 1;
+    text-align: center;
+}
+
+img {
+    max-height: 300px;
+}
+
+h1 {
+    font-size: 4.2rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+label{
+    font-size: 1.8rem;
+}
+
+select {
+    margin: 50px 0 0 0;
+}
+
+p, li {
+    font-size: 1.6rem;
+    background-color: white;
+}
+
+li {
+    font-size: 1.4rem;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+
+  
