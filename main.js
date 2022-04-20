@@ -111,9 +111,5 @@ function removeSpec() {
     });
   }
 
-// var x=document.getElementById("summaryOL");
-// newLI = document.createElementNS(null,"li");
-// newText = document.createTextNode(txt);
-// newLI.appendChild(newText);
-// x.appendChild(newLI);
+
 
