@@ -27,6 +27,7 @@ html {
 
 .container {
     display: flex;
+    
 }
 .column {
     flex: 1;
